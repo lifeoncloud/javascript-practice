@@ -2,7 +2,7 @@
 const buttonElement = document.querySelector('button');
 buttonElement.addEventListener('click', iamResult)
 
-//input값을 alert창으로 띄우는 함수
+//input 값을 alert 창으로 띄우는 함수
 function printInputValue()  {
     const value = document.getElementById('text-input').value;
     alert(value)
